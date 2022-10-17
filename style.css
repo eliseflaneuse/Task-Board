@@ -29,7 +29,7 @@ body {
   text-align: center;
   top: 0;
   left: 0;
-  justify-content: stretch;
+  justify-content: space-around;
 }
 
 .navbar h1 {
@@ -87,7 +87,7 @@ input {
 	min-height: 700px;
   display: grid;
   grid-template-rows: 20px, repeat(5, 100px);
-  align-content: space-around;
+  align-content: stretch;
 }
 
 .card-column h2 {
